@@ -7,7 +7,7 @@ import cat from "../assets/5.jpg";
 import his from "../assets/2.jpg";
 const landing = () => {
   return (
-    <div className="container">
+    <div className="container text-center">
       {/* welcome section */}
       <div className="row align-items-center">
         <div className="col-lg-4">

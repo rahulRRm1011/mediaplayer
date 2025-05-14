@@ -1,0 +1,24 @@
+
+                           -----------------AXIOS-----------------
+Axios is a promise based Http client for node.js and the browser.It is widely used in js applications to make asynchronous HTTP request.
+-->Promise based
+-->Client side ,server side
+-->Automatic JSON parsing
+
+AXIOS API 
+
+
+
+Request can be made b passing the relevant config to AXIOS
+axios(config)
+
+// send a post Request
+
+axios({
+    method:'post',
+    url :'/user/12345'
+    data :{
+        fname:'rahul'
+        lname:'rm'
+    }
+})
